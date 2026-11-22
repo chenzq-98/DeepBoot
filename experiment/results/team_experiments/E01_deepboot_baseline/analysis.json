@@ -1,0 +1,38 @@
+{
+  "all_jcts": {
+    "count": 3360,
+    "mean_seconds": 123.77589285714286,
+    "p50_seconds": 8.0,
+    "p75_seconds": 11.0,
+    "p95_seconds": 17.0,
+    "max_seconds": 43773.0
+  },
+  "training_jcts": {
+    "count": 160,
+    "mean_seconds": 2442.58125,
+    "p50_seconds": 984.0,
+    "p75_seconds": 1672.75,
+    "p95_seconds": 6751.499999999996,
+    "max_seconds": 43773.0
+  },
+  "inference_jcts": {
+    "count": 3200,
+    "mean_seconds": 7.835625,
+    "p50_seconds": 8.0,
+    "p75_seconds": 11.0,
+    "p95_seconds": 15.0,
+    "max_seconds": 18.0
+  },
+  "gpu": {
+    "samples": 71460,
+    "clock_start": 1,
+    "clock_end": 71460,
+    "allocated_mean_percent": 94.42166071928352,
+    "allocated_peak_percent": 100.0,
+    "real_mean_percent": 83.45855636020151,
+    "real_peak_percent": 100.0,
+    "real_running_mean_percent": 83.67769119087602,
+    "real_running_peak_percent": 100.0
+  },
+  "submitted_jobs": 3360
+}
