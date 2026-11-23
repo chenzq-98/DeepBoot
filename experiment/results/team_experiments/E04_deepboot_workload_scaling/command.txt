@@ -1,0 +1,1 @@
+conda run --no-capture-output -n pollux python simulator.py --workload ./experiment/workload/middle.csv --AFE 0 --AISS 1 --log_file 0 --output experiment/results/team_experiments/E04_deepboot_workload_scaling/simulator-output --min-nodes 16 --num-gpus 4 --policy dp

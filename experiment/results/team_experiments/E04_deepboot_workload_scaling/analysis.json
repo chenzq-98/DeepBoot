@@ -1,0 +1,48 @@
+{
+  "input_workload": {
+    "rows": 16160,
+    "training_jobs": 160,
+    "inference_requests": 16000,
+    "inference_application_families": 6
+  },
+  "completed_jobs_in_final_snapshot": 16160,
+  "completed_jcts": {
+    "all": {
+      "count": 16160,
+      "mean_seconds": 40.55049504950495,
+      "p50_seconds": 12.0,
+      "p75_seconds": 17.0,
+      "p95_seconds": 23.0,
+      "max_seconds": 55712.0
+    },
+    "training": {
+      "count": 160,
+      "mean_seconds": 2857.7,
+      "p50_seconds": 1089.5,
+      "p75_seconds": 1650.5,
+      "p95_seconds": 7176.949999999996,
+      "max_seconds": 55712.0
+    },
+    "inference": {
+      "count": 16000,
+      "mean_seconds": 12.379,
+      "p50_seconds": 12.0,
+      "p75_seconds": 17.0,
+      "p95_seconds": 23.0,
+      "max_seconds": 32.0
+    }
+  },
+  "gpu_utilization": {
+    "samples": 77940,
+    "clock_start": 1,
+    "clock_end": 77940,
+    "allocated_mean_percent": 82.76761370926353,
+    "allocated_peak_percent": 100.0,
+    "real_mean_percent": 72.40730048755452,
+    "real_peak_percent": 100.0,
+    "real_running_mean_percent": 75.34475638311523,
+    "real_running_peak_percent": 100.0
+  },
+  "summary_avgs_field": 40.55049504950495,
+  "metric_log_samples": 0
+}
